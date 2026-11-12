@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f0e5">
+  <meta name="description" content="Happi Beans — Coffee, drinks and snacks in San Jose del Monte, Bulacan. Find your happy cup.">
+  <title>Happi Beans — Coffee • Drinks • Snacks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">A little cup of happiness, every day <span>✦</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Happi Beans home">
+      <img src="assets/happi-beans-logo.jpg" alt="Happi Beans Coffee and Connections logo">
+      <span><b>Happi Beans</b><small>COFFEE • DRINKS • SNACKS</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#home">Home</a><a href="#menu">Our Menu</a><a href="#story">Our Vibe</a><a href="#visit">Find Us</a>
+      <a class="nav-cta" href="mailto:Hapibeans16@gmail.com">Contact us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> YOUR DAILY HAPPY PLACE <span></span></div>
+        <h1>Good coffee.<br><em>Good company.</em><br>Happi moments.</h1>
+        <p>From your favourite coffee to refreshing sips and feel-good snacks — there's always a little happiness waiting for you.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#menu">Explore the menu <span>↗</span></a>
+          <a class="text-link" href="#visit">Come say hello <span>→</span></a>
+        </div>
+        <div class="hero-note"><span class="note-star">✳</span><span><b>Made for your moments</b><small>Coffee • Drinks • Snacks</small></span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="photo-frame"><img src="assets/happi-beans-cups.jpg" alt="Happi Beans iced coffee and hot drink in branded cups"></div>
+        <div class="round-stamp">SIP<br>SMILE<br>REPEAT <span>✦</span></div>
+        <div class="floating-card"><span>☕</span><div><b>Your happy cup</b><small>is waiting for you</small></div></div>
+      </div>
+      <div class="hero-bottom"><span>01 — A GOOD DAY STARTS HERE</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="intro-strip">
+      <p>COFFEE <i>✦</i> CONNECTIONS <i>✦</i> LITTLE JOYS <i>✦</i> GOOD VIBES</p>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-heading reveal">
+        <div><div class="eyebrow">SOMETHING FOR EVERY MOOD</div><h2>Find your <em>happy.</em></h2></div>
+        <p>Explore the Happi Beans menu.<br>Pick a favourite, or discover a new one.</p>
+      </div>
+      <div class="menu-tools reveal">
+        <div class="category-tabs" role="group" aria-label="Filter menu categories">
+          <button class="tab active" data-filter="all">All</button>
+          <button class="tab" data-filter="Coffee">Coffee</button>
+          <button class="tab" data-filter="Non-Coffee">Non-coffee</button>
+          <button class="tab" data-filter="Waffles">Waffles</button>
+          <button class="tab" data-filter="Snacks & Burgers">Snacks</button>
+          <button class="tab" data-filter="Combo Meals">Combos</button>
+          <button class="tab" data-filter="Frappe">Frappe</button>
+          <button class="tab" data-filter="Sparkling Soda">Soda</button>
+          <button class="tab" data-filter="Milktea">Milktea</button>
+          <button class="tab" data-filter="Refreshing Drinks">Refreshing</button>
+          <button class="tab" data-filter="Add-ons">Add-ons</button>
+        </div>
+        <label class="search-box"><span>⌕</span><input id="menuSearch" type="search" placeholder="Search the menu..." aria-label="Search menu"></label>
+      </div>
+      <div class="menu-grid" id="menuGrid" aria-live="polite"></div>
+      <p class="menu-footnote">Prices are in Philippine pesos (₱). Product availability may vary.</p>
+    </section>
+
+    <section class="feature-band">
+      <div class="feature-image reveal"><img src="assets/spanish-latte-character.jpg" alt="Cute Happi Beans Spanish Latte character artwork"></div>
+      <div class="feature-copy reveal">
+        <div class="eyebrow">A LITTLE MORE THAN COFFEE</div>
+        <h2>Come for the sip.<br><em>Stay for the connection.</em></h2>
+        <p>Whether it's a quick pick-me-up, a sweet treat, or a catch-up with your favourite people, Happi Beans is here for the little moments that make your day.</p>
+        <a class="text-link" href="#visit">Find your way to us <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="characters section-pad">
+      <div class="section-heading reveal"><div><div class="eyebrow">MEET YOUR MOOD</div><h2>Every cup has a <em>personality.</em></h2></div><p>A few familiar faces from the Happi Beans universe.</p></div>
+      <div class="character-grid">
+        <article class="character-card reveal"><img src="assets/caramel-macchiato-character.jpg" alt="Caramel Macchiato illustrated coffee character"><h3>Caramel Macchiato</h3><p>Calm but hype. Good vibes only.</p></article>
+        <article class="character-card reveal"><img src="assets/peppermint-mocha-character.jpg" alt="Peppermint Mocha illustrated coffee character"><h3>Peppermint Mocha</h3><p>A creative mind with a soft side.</p></article>
+        <article class="character-card reveal"><img src="assets/sea-salt-latte-character.jpg" alt="Sea Salt Latte illustrated coffee character"><h3>Sea Salt Latte</h3><p>Quietly confident. Loves peace.</p></article>
+      </div>
+    </section>
+
+    <section class="visit-section section-pad" id="visit">
+      <div class="visit-card reveal">
+        <div class="visit-copy">
+          <div class="eyebrow">YOUR NEXT HAPPY STOP</div>
+          <h2>Let's make it<br><em>a coffee date.</em></h2>
+          <p>Drop by for coffee, drinks, snacks and a little time well spent.</p>
+          <div class="visit-details">
+            <div class="detail"><span class="detail-icon">⌖</span><div><small>FIND US</small><b>Tubigan Road, Heroesville,<br>San Jose del Monte, Bulacan, Philippines, 3023</b><small>Plus Code: Q2VV+HPW, Tubigan Rd, SJDM, Bulacan</small></div></div>
+            <div class="detail"><span class="detail-icon">◷</span><div><small>OPEN DAILY</small><b>Monday – Sunday</b><small>11:00 AM – 11:00 PM</small></div></div>
+            <div class="detail"><span class="detail-icon">✉</span><div><small>SAY HELLO</small><a href="mailto:Hapibeans16@gmail.com">Hapibeans16@gmail.com</a><button class="copy-email" id="copyEmail">Copy email</button></div></div>
+          </div>
+          <a class="button button-light" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Q2VV%2BHPW%2C+Tubigan+Rd%2C+San+Jose+del+Monte%2C+Bulacan%2C+Philippines">Get directions <span>↗</span></a>
+        </div>
+        <div class="visit-art"><img src="assets/happi-beans-cups.jpg" alt="Happi Beans drinks"><div class="visit-seal">SEE YOU<br>SOON <span>♡</span></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-brand" href="#home">Happi Beans<span>COFFEE • DRINKS • SNACKS</span></a>
+    <p>Little sips. Big smiles.</p>
+    <div class="footer-bottom"><span>© <span id="year"></span> Happi Beans. All rights reserved.</span><a href="mailto:Hapibeans16@gmail.com">Hapibeans16@gmail.com</a><a href="#home">Back to top ↑</a></div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite">Email copied!</div>
+  <script src="script.js"></script>
+</body>
+</html>
